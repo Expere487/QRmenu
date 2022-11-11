@@ -1,0 +1,138 @@
+.bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.bg .mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.55);
+}
+
+.restaurant{
+    padding-bottom: 100px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
+}
+
+.restaurant .splash_text p{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: justify;
+    position: relative;
+    z-index: 1000;
+}
+.restaurant .button{
+    position: relative;
+    z-index: 1000;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: monospace;
+    font-weight: 700;
+    background-color: #842029;
+    color:#fff;
+    padding: 10px;
+    /* border-radius: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Kategoriler sayfası */ 
+
+.place{
+    overflow: hidden;
+    height: 162px;
+    position: relative;
+}
+.main-bgImg{
+    background-image: url(../img/B25100754987454553.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50%;
+}
+.lang select{
+    width: 100px;
+    height: 25px;
+    
+    position: absolute;
+    bottom:30px;
+    right: 10px;
+}
+
+.menu-area{
+    height: 100vh;
+    position: relative;
+    top: -25px;
+    background-color: #fff;
+    border-radius: 15px;   
+}
+
+.cafe{
+
+}
+
+.cafe-title h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.adress,.phone,.wifi{
+    /*padding-left: 20px;*/
+    padding-right: 20px;
+    font-size: 16px;
+    color:#bbb;
+}
+.phone,.wifi{
+    padding-top: 20px;
+}
+
+.adress i,.phone i,.wifi i{
+    padding-right: 20px;
+    color:#aaa;
+    font-size: 20px;
+    
+}
+
+.other-menus{
+    justify-content: space-around;
+}
+
+.other-menus .other-menu{
+    border: 3px solid #842029;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 10px;
+    text-decoration: none;
+    color:#842029;
+    cursor:pointer;
+    transition: 350ms all;
+    
+}
+
+
+
