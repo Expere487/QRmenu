@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.bg .mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.55);
+}
+
+.restaurant{
+    padding-bottom: 100px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
+}
+
+.restaurant .splash_text p{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: justify;
+    position: relative;
+    z-index: 1000;
+}
+.restaurant .button{
+    position: relative;
+    z-index: 1000;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: monospace;
+    font-weight: 700;
+    background-color: #842029;
+    color:#fff;
+    padding: 10px;
+    /* border-radius: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Kategoriler sayfası */ 
+
+.place{
+    overflow: hidden;
+    height: 162px;
+    position: relative;
+}
+.main-bgImg{
+    background-image: url(../img/B25100754987454553.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50%;
+}
+.lang select{
+    width: 100px;
+    height: 25px;
+    
+    position: absolute;
+    bottom:30px;
+    right: 10px;
+}
+
+.menu-area{
+    height: 100vh;
+    position: relative;
+    top: -25px;
+    background-color: #fff;
+    border-radius: 15px;   
+}
+
+.cafe{
+
+}
+
+.cafe-title h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 40px;
+    font-family: 'Rubik',sans-serif;
+}
+
+.adress,.phone,.wifi{
+    /*padding-left: 20px;*/
+    padding-right: 20px;
+    font-size: 16px;
+    color:#bbb;
+    font-family: 'Rubik',sans-serif;
+}
+.phone,.wifi{
+    padding-top: 20px;
+}
+
+.adress i,.phone i,.wifi i{
+    padding-right: 10px;
+    color:#aaa;
+    font-size: 20px;
+    
+}
+
+.other-menus{
+    justify-content: space-around;
+}
+
+.other-menus .other-menu{
+    font-family: 'Rubik',sans-serif;
+    border: 3px solid #842029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    padding: 10px;
+    text-decoration: none;
+    color:#842029;
+    cursor:pointer;
+    transition: 350ms all;
+    width: 20%;
+    
+    
+}
+
+.search{
+    width: 100%;
+    position: relative;
+}
+
+.search input{
+    width: 100%;
+    background-color: #fafafa;
+    border: none;
+    height: 40px;
+    border-radius: 32px;
+    text-align: start;
+    outline: none;    
+    padding-left: 25px;
+    color: #4c4c4c;
+    font-size: 16px;
+    font-family: 'Rubik',sans-serif;
+}
+
+.search input::placeholder{
+    color: #4c4c4c;
+    font-family: 'Rubik',sans-serif;
+}
+
+.search button{
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border: none;
+    border-radius: 100%;
+    color:#000;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.cafe-categories{
+    padding: 20px;
+}
+
+.cafe-categories .category{
+    margin-top: 16px;
+    width:100%;
+    background-position: 50%;
+    background-size: cover;
+    height: 200px;
+    border-radius:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cafe-categories .category .cate-name{
+    text-decoration: none;
+    background-color:rgba(0, 0, 0, 0.55);
+    font-size: 50px;
+    position: absolute;
+    color:#fff;
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.cafe_prdocuts{
+    width: 100%;
+}
+
+.product{
+    margin-top: 30px;
+    background-color: #f5f5f5;
+    margin-left: 24px;
+    padding: 10px;
+    width: 100%;    
+    border-radius: 15px;
+}
+
+.product .product-img{
+    /* width:100%; */
+    border-radius: 15px;
+}
+
+.product .product-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product-info{
+    padding: 10px;
+}
+
+.product-info h2{
+    font-family: 'Rubik',sans-serif;
+    font-size: 22px;
+    color:#4c4c4c;
+    text-align: start;
+}
+
+.product-info p{
+    font-family: 'Rubik',sans-serif;
+    font-size: 16px;
+    color:#676767;
+    text-align: start;
+}
+
+.product-footer{
+    padding: 10px;
+}
+
+.product-footer .price{
+    font-size: 26px;
+    color:#842029;
+}
+
+.product-footer .price .price-icon{
+    font-size: 24px;
+}
+
+.muchCounter{
+    width: 50px;
+    height: 50px;
+    background-color: #842029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 100px;
+    color:#fff;
+}
+
+.muchCounterBig{
+    font-size: 18px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    color:#fff;
+}
+.muchCounterBig i,.much{
+    color:#842029;
+    font-weight: 700;
+}
+
+.order-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom:0;
+    z-index: 10000;
+}
+.order{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #842029;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.order a{
+    font-size: 22px;
+    text-decoration: none;
+    color:#ddd;
+    font-weight: 700;
+}
